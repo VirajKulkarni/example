@@ -1,0 +1,31 @@
+{
+  "name": "flashmobparty-app-nodejs",
+  "version": "1.0.0",
+  "description": "Flashmob party",
+  "main": "node_modules/app.js",
+  "dependencies": {
+    "basic-auth": "*",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "morgan": "*",
+    "nodemailer": "*",
+    "randomstring": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yassinsamir/flashmobparty-app-nodejs.git"
+  },
+  "author": "Viraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yassinsamir/flashmobparty-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/yassinsamir/flashmobparty-app-nodejs#readme"
+}
