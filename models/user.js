@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 const mongoURL = process.env.OPENSHIFT_MONGODB_DB_URL;
+const db_name = flashmob;
 
 const userSchema = mongoose.Schema({ 
 
@@ -17,6 +18,14 @@ const userSchema = mongoose.Schema({
 });
 
 mongoose.Promise = global.Promise;
+
+if(process.env.OPENSHIFT_MONGODB_DB_URL){
+	mongoURL = process.env.OPENSHIFT_MONGODB_DB_URL + db_name;
+}
+else{
+	mongoURL = 'mongodb://localhost:27017/' + db_name;
+}
+
 mongoose.connect(mongoURL);
 
 module.exports = mongoose.model('user', userSchema);
