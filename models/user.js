@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
-const mongoURL = process.env.OPENSHIFT_MONGODB_DB_URL;
+//const mongoURL = process.env.OPENSHIFT_MONGODB_DB_URL;
 const db_name = flashmob;
 
 const userSchema = mongoose.Schema({ 
