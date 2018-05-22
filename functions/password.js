@@ -80,8 +80,7 @@ exports.resetPasswordInit = email =>
     			     Your reset password token is <b>${random}</b>.  
     			The token is valid for only 2 minutes.
 
-    			Thanks,
-    			Learn2Crack.`
+    			Thanks.`
 
 			};
 

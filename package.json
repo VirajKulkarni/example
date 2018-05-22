@@ -2,7 +2,7 @@
   "name": "flashmobparty-app-nodejs",
   "version": "1.0.0",
   "description": "Flashmob party",
-  "main": "node_modules/app.js",
+  "main": "main/app.js",
   "dependencies": {
     "basic-auth": "*",
     "bcryptjs": "*",
@@ -16,16 +16,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node node_modules/app.js"
+    "start": "node main/app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yassinsamir/flashmobparty-app-nodejs.git"
+    "url": "git+https://github.com/shocky698/flashmobparty-app-nodejs"
   },
   "author": "Viraj",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yassinsamir/flashmobparty-app-nodejs/issues"
+    "url": "https://github.com/shocky698/flashmobparty-app-nodejs/issues"
   },
-  "homepage": "https://github.com/yassinsamir/flashmobparty-app-nodejs#readme"
+  "homepage": "https://github.com/shocky698/flashmobparty-app-nodejs#readme"
 }
