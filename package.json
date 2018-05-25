@@ -18,6 +18,10 @@
   "scripts": {
     "start": "node main/app.js"
   },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shocky698/flashmobparty-app-nodejs"
