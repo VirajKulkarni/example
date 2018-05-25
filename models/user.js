@@ -23,6 +23,7 @@ mongoose.Promise = global.Promise;
 //	mongoURL = process.env.OPENSHIFT_MONGODB_DB_URL + db_name;
 //}
 
+console.log("rrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",process.env[mongoServiceName + '_PASSWORD']);
 
 if (mongoURL == null && process.env.DATABASE_SERVICE_NAME) {
 	var mongoServiceName = process.env.DATABASE_SERVICE_NAME.toUpperCase(),
