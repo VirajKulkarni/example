@@ -25,6 +25,7 @@ mongoose.Promise = global.Promise;
 
 console.log("rrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",mongoURL);
 console.log("eeeeeeeeeeeeee",process.env.DATABASE_SERVICE_NAME);
+console.log("database name",process.env[mongoServiceName + '_PASSWORD']);
 
 if (mongoURL == null && process.env.DATABASE_SERVICE_NAME) {
 	var mongoServiceName = process.env.DATABASE_SERVICE_NAME.toUpperCase(),
