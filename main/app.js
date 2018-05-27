@@ -18,4 +18,6 @@ app.use('/api/v1', router);
 
 app.listen(port,ip);
 
+console.log(`flashmob App is Running on port`,port);
+console.log(`flashmob App is Running on ip`,ip);
 console.log(`flashmob App is Running on ${port} ${ip} `);
